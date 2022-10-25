@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url(colour.css);
+
+*{
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    overflow-x: hidden;
+}
+
+.topNav{
+    background-color: var(--gs1-color-blue);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.topNav .inner{
+    width: 30rem;
+    padding: 5px 1rem;
+    border-radius: 4px;
+}
+
+.gs1TextBox {
+    margin-top: 2rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.gs1TextBox h1 {
+    color: #524e4e;
+    font-size: 54px;
+    font-weight: 900;
+}
+
+.gs1DiscountMain {
+    height: 760px;
+    background: #ff8a00;
+}
+
+.gs1Discount{
+    height: 29rem;
+}
+.gs1Discount img{
+    width: 19.5rem;
+}
+/* Mobile screen */
+@media (max-width: 580px) {
+    .gs1NavTopCat {
+            display: none;
+        }
+
+    .gs1ImgBox img {
+        width: 250px;
+    }
+
+    .gs1TextBox h1 {
+        font-size: 20px;
+    }
+
+    .gs1TextBox span {
+        font-size: 6px;
+    }
+
+    .gs1Box {
+        height: 260px;
+    }
+
+    .gs1DiscountMain {
+        height: 500px;
+        background: #ff8a00;
+    }
+
+    .gs1Discount {
+        height: 19rem;
+    }
+
+    .gs1Discount img {
+        width: 15rem;
+    }
+}
+
+/* Tablet screen */
+@media (min-width: 501px) and (max-width: 768px) {
+    .gs1ImgBox img {
+        width: 340px;
+    }
+
+    .gs1TextBox h1 {
+        font-size: 32px;
+    }
+
+    .gs1Box {
+        height: 400px;
+    }
+}
+
+/* Laptop screen */
+@media (min-width: 769px) and (max-width: 1200px) {
+    .gs1ImgBox img {
+        width: 390px;
+    }
+
+    .gs1TextBox h1 {
+        font-size: 42px;
+    }
+
+    .gs1Box {
+        height: 400px;
+    }
+}
+
+
+/* Wide screen */
+@media (min-width: 1201px) {
+    .gs1ImgBox img {
+        width: 490px;
+    }
+
+    .gs1TextBox h1 {
+        font-size: 54px;
+    }
+
+    .gs1Box {
+        height: 400px;
+    }
+}
+
+
